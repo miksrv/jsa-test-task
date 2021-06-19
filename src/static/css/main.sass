@@ -1,0 +1,57 @@
+$main-color: #333
+$second-color: #555
+$background-color: #f7f7f7
+
+body
+  color: $main-color
+  font-size: 1em
+  line-height: 1.5
+  background-color: $background-color
+  margin: 0
+  padding: 2em 0
+
+.header
+  .title
+    text-transform: uppercase !important
+  .logo
+    padding: .3em !important
+
+.task-item
+  .content
+    display: flex
+    align-items: center
+    > div
+      margin: 0 5px
+
+  .date
+    color: $second-color
+
+  .comment-button, .priority-button
+    font-size: .8em
+    color: blue
+    cursor: pointer
+
+    &:hover
+      color: #7373f6
+
+  .comment-button
+    margin-left: 1em
+
+.completed
+  opacity: .4
+
+.comments
+  > div
+    background: #F2F2F2
+    margin: .3em 0
+    padding: .1em .5em
+    border-left: 4px solid #ddd
+
+.segment-loader
+  min-height: 5em
+
+.small
+  font-size: .8em
+
+.footer
+  margin-top: 3em
