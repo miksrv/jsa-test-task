@@ -17,7 +17,7 @@ User Assignments interface. The general view of the interface is a heading with 
 
 The task list has the ability to change the priority. The form for adding a new task is implemented in the form of a dialog box and contains a title, a priority selection selector. 
 
-Written in ReactJS + Redux (use Node and NPM). To debug an application on a local server, you must first install the necessary dependencies:
+Written in ReactJS + Semantic UI (use Node and NPM). To debug an application on a local server, you must first install the necessary dependencies:
   * `npm install` Installing dependencies.
   * `npm update` Update all dependencies.
   * `npm start` Launches a local webserver for debugging the application.
